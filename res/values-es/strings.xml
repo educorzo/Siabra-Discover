@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SIABRA Discover</string>
+    <string name="hello_world">Hola mundo!</string>
+    <string name="action_settings">Settings</string>
+<string name="button_OK">OK</string>
+    
+    <string name="UPDATE_ERROR_AUTHORIZATION_FAILED_TITLE">Error de autorización.</string>
+    <string name="UPDATE_ERROR_PROJECT_SUSPENDED_TITLE">Error de autorización</string>
+    <string name="UPDATE_ERROR_NO_NETWORK_CONNECTION_TITLE">No hay red</string>
+    <string name="UPDATE_ERROR_SERVICE_NOT_AVAILABLE_TITLE">No hay servicio</string>
+    <string name="UPDATE_ERROR_UPDATE_SDK_TITLE"> Versión no soportada</string>
+    <string name="UPDATE_ERROR_TIMESTAMP_OUT_OF_RANGE_TITLE">Clock Sync Error</string>
+    <string name="UPDATE_ERROR_REQUEST_TIMEOUT_TITLE">Request Timeout</string>
+    <string name="UPDATE_ERROR_BAD_FRAME_QUALITY_TITLE">Baja calidad de cámara</string>
+    <string name="UPDATE_ERROR_UNKNOWN_TITLE">Servicio no disponible</string>
+    <string name="UPDATE_ERROR_AUTHORIZATION_FAILED_DESC">Vuforia access keys son incorrectas o han expirado.</string>
+    <string name="UPDATE_ERROR_PROJECT_SUSPENDED_DESC">El reconocimiento ha sido suspendido.</string>
+    <string name="UPDATE_ERROR_NO_NETWORK_CONNECTION_DESC">Comprueba tu conexión de internet y vuelve a intentarlo.</string>
+    <string name="UPDATE_ERROR_SERVICE_NOT_AVAILABLE_DESC">El servicio no esta disponible, intentelo mas tarde.</string>
+    <string name="UPDATE_ERROR_UPDATE_SDK_DESC">La aplicación esta usando una versión no soportada de Vuforia.</string>
+    <string name="UPDATE_ERROR_TIMESTAMP_OUT_OF_RANGE_DESC">Por favor actualiza la fecha y hora e intentalo de nuevo.</string>
+    <string name="UPDATE_ERROR_REQUEST_TIMEOUT_DESC">Timed out en la conexión, comprueba tu conexion a internet e intetalo de nuevo.</string>
+    <string name="UPDATE_ERROR_BAD_FRAME_QUALITY_DESC">La cámara no tiene suficiente detalle, intentalo más tarde.</string>
+    <string name="UPDATE_ERROR_UNKNOWN_DESC">El servicio no esta disponible, intentalo más tarde.</string>
+
+    <string name="content_desc_camera_button">Camera Button</string>
+    <string name="overlay_build_target_help">Manten el dispositivo paralelo a la imagen.</string>
+    <string name="target_quality_error_title">Imagen de baja calidad</string>
+    <string name="target_quality_error_desc">La imagen tiene poco detalle, use otra porfavor.</string>
+    <string name="bienvenido">Bienvenido a SIABRA Discover.</string>
+    <string name="contenido">La app para visualizar la información de otros usuarios. \n Para comenzar autorice esta aplicación.</string>
+    <string name="menu_back">Cerrar sesión</string>
+    <string name="close_app">Cerrar app</string>
+    <string name="menu_extended_tracking">Mantener información</string>
+    <string name="menu_extended_tracking_no_targets">No hay información para mantener en la pantalla</string>
+    <string name="menu_character_mode">Character Mode</string>
+    <string name="menu_flash">Flash</string>
+    <string name="menu_flash_error_on">Imposible activar el flash</string>
+    <string name="menu_flash_error_off">Imposible desactivar el flash</string>
+    <string name="menu_contAutofocus">Autofocus</string>
+    <string name="menu_contAutofocus_error_on">Imposible activar  Auto-Focus continuo</string>
+    <string name="menu_contAutofocus_error_off">Imposible desactivar Auto-Focus continuo</string>
+    <string name="menu_datasets">DATASETS</string>
+    <string name="menu_camera">CAMARA</string>
+    <string name="menu_camera_front">Delantera</string>
+    <string name="menu_camera_back">Trasera</string>
+    <string name="menu_button_red">Rojo</string>
+    <string name="menu_button_blue">Azul</string>
+    <string name="menu_button_yellow">Amarillo</string>
+    <string name="menu_button_green">Verde</string>
+    <string name="autorizar">Autorizar</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="splash_screen_description">Vuforia Splash</string>
+    
+</resources>

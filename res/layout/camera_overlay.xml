@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/camera_overlay_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <ProgressBar
+        android:id="@+id/loading_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+       <LinearLayout
+           android:id="@+id/general"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:weightSum="3" >
+
+           <FrameLayout
+               android:id="@+id/comentario"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:paddingTop="5dp" >
+
+               <TextView
+                   android:id="@+id/textComentario"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:background="@drawable/layout_border"
+                   android:textAppearance="?android:attr/textAppearanceMedium"
+                   android:padding="5dp"
+                   android:visibility="invisible"
+                    />
+
+           </FrameLayout>
+
+           <LinearLayout
+               android:id="@+id/botones"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="end"
+               android:layout_weight="1.2"
+               android:orientation="vertical"
+               android:weightSum="3" >
+
+               <LinearLayout
+                   android:id="@+id/widget47"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:weightSum="1" >
+					<Space
+                       android:layout_width="wrap_content"
+                       android:layout_height="match_parent"
+                       android:layout_weight=".22" />
+
+                   <Space
+                       android:layout_width="wrap_content"
+                       android:layout_height="match_parent"
+                       android:layout_weight=".6" />
+                   
+                   <ImageButton
+                       android:id="@+id/linkedinButton"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_weight=".2"
+                       android:onClick="goToLinkedin"
+                       android:background="@android:color/transparent"
+                       android:src="@drawable/linkedincolorido"
+                       android:visibility="invisible" />
+                   
+                   
+               </LinearLayout>
+
+               <LinearLayout
+                   android:id="@+id/widget50"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:weightSum="1" >
+
+                   <ImageButton
+                       android:id="@+id/twitterButton"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_weight=".2"
+                       android:background="@android:color/transparent"
+                       android:onClick="goToTwitter"
+                       android:src="@drawable/twittercolorido"
+                       android:visibility="invisible" />
+
+                   <Space
+                       android:layout_width="wrap_content"
+                       android:layout_height="match_parent"
+                       android:layout_weight=".6" />
+
+                   <ImageButton
+                       android:id="@+id/webProfesionalButton"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_weight=".2"
+                       android:background="@android:color/transparent"
+                       android:onClick="goToWebProfesional"
+                       android:src="@drawable/webprofesionalcolorido"
+                       android:visibility="invisible" />
+               </LinearLayout>
+
+              <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:weightSum="1" >
+					<ImageButton
+                       android:id="@+id/facebookButton"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_weight=".2"
+                       android:background="@android:color/transparent"
+                       android:onClick="goToFacebook"
+                       android:src="@drawable/facebookcolorido"
+                       android:visibility="invisible" />
+                   <Space
+                       android:layout_width="wrap_content"
+                       android:layout_height="match_parent"
+                       android:layout_weight="0.6" />
+                   <ImageButton
+                       android:id="@+id/webPersonalButton"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_weight=".2"
+                       android:background="@android:color/transparent"
+                       android:onClick="goToWebPersonal"
+                       android:src="@drawable/webpersonalcolorido"
+                       android:visibility="invisible" />
+               </LinearLayout>
+           </LinearLayout>
+
+           <FrameLayout
+               android:id="@+id/tarjeta"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="0.8" >
+
+               <TextView
+                   android:id="@+id/textTarjeta"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="bottom"
+                   android:background="@drawable/layout_border"
+                   android:padding="5dp"
+                   android:textAppearance="?android:attr/textAppearanceMedium"
+                   android:visibility="invisible" />
+
+           </FrameLayout>
+
+         </LinearLayout>
+
+</RelativeLayout>
